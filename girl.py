@@ -1,5 +1,6 @@
 import os
 import base64
+import argparse
 from pathlib import Path
 from markdown2 import markdown
 
@@ -28,7 +29,6 @@ def generate_tree_html(path, base_path):
             tree_html += f"<li>{item.name}</li>"
     tree_html += "</ul>"
     return tree_html
-
 
 def generate_html(info_dict):
     try:
@@ -97,7 +97,6 @@ def generate_html(info_dict):
         print("Available keys:", info_dict.keys())
         raise
 
-
 def main(repo_path):
     """Main function to read .git folder and generate HTML page."""
     git_path = os.path.join(repo_path, '.git')
@@ -151,8 +150,9 @@ def main(repo_path):
     else:
         print("The specified path is not a git repository.")
 
-
 if __name__ == "__main__":
-    # Specify the path to your git repository
-    repo_path = '.'
-    main(repo_path)
+    parser = argparse.ArgumentParser(description='Generate an HTML report for a Git repository.')
+    parser.add_argument('directory', type=str, help='Path to the Git repository')
+    args = parser.parse_args()
+    
+    main(args.directory)
