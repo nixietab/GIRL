@@ -10,6 +10,10 @@
 - Usually weights under 10kb
 - REALLY inspired by Web 1.0
 - Display basic information about the repository.
+
+![imagen](https://github.com/user-attachments/assets/25ca0012-7433-46da-8100-c0b3a92ddd97)
+
+
 ## Installation
 
 1. Clone the repository:
