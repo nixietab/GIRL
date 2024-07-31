@@ -13,24 +13,7 @@
 
 ![imagen](https://github.com/user-attachments/assets/25ca0012-7433-46da-8100-c0b3a92ddd97)
 
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/nixietab/girl.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd girl
-    ```
-3. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
-
 1. Run the script:
     ```bash
     python git.py
