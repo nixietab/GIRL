@@ -1,0 +1,5 @@
+body,h1,h2,p,pre{margin:0;padding:0}
+body{font-family:"Times New Roman",Times,serif;background-color:#ffffff;color:#000000;text-align:center;margin:20px}.container{max-width:800px;margin:0 auto;text-align:left}
+h1{background-color:#000080;color:#ffffff;padding:10px;font-size:24px;border:2px solid #000000;margin-bottom:20px}.navbar{background-color:#000080;padding:10px;margin-bottom:20px;position:sticky;top:0;z-index:1000}.navbar a{color:#ffffff;text-decoration:none;margin:0 10px;font-weight:bold}.navbar a:hover{text-decoration:underline}
+h2{font-size:18px;color:#000080;margin:20px 0 10px 0}
+pre{background-color:#f0f0f0;border:1px solid #000000;padding:10px;overflow:hidden;white-space:pre-wrap;word-wrap:break-word;max-width:100%;margin:0 auto;text-align:left}
