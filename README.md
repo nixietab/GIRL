@@ -41,9 +41,4 @@
 
 - **Repository Path**: Set the path to your Git repository in the `repo_path` variable within `girl.py`.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/yourusername/girl).
-
-
 Thank you for using GIRL!
