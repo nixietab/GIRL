@@ -153,5 +153,5 @@ def main(repo_path):
 
 if __name__ == "__main__":
     # Specify the path to your git repository
-    repo_path = '../picodulce'
+    repo_path = '.'
     main(repo_path)
